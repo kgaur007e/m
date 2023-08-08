@@ -1,0 +1,57 @@
+h1{
+
+	text-align: center;
+	color: blue;
+	background-color: LightGray;
+
+
+}
+h2{
+
+	text-align: center;
+	color: yellow;
+	background-color: Lightpink;
+
+
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-left-color: red;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid red;
+}
+
+.button1:hover {
+  background-color: pink;
+  color: white;
+}
+
+
+p{
+
+
+	color: red;
+	background-color:LightGray;
+
+
+}
+body {
+  background-image: url("hotelpic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50px 50px 100px 50px ;
+}

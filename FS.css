@@ -1,0 +1,82 @@
+
+body {
+  background-image: url("blur.webp");
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+h2{
+  text-align: right;
+  font-size: 40px;
+  font-weight: bold;
+  color: #08FD7B;
+  background-image: linear-gradient(to right, #007bff, #00bcd4);
+  -webkit-background-clip: text;
+  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #08FD7B;
+  background-image: linear-gradient(to right, #007bff, #00bcd4);
+  -webkit-background-clip: text;
+  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+h1 {
+  position: relative;
+}
+
+h1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 20px;
+  height: 100%;
+  background-color: #007bff;
+  z-index: -1;
+}
+
+
+
+h1 {
+  animation: colorChange 2s infinite;
+}
+
+@keyframes colorChange {
+  0% { color: #007bff; }
+  50% { color: #00bcd4; }
+  100% { color: #007bff; }
+}
+h1 {
+  transform: scale(1.2);
+}
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      /* Optional: Add box-shadow and transition for a subtle effect */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease;
+      }

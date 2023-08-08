@@ -1,0 +1,9 @@
+h1 {
+  color: #ff6600;
+  -webkit-text-stroke: 1px black;
+}
+body {
+  background-image: url("group.jpeg");
+  background-size: cover;
+  background-position: center;
+}

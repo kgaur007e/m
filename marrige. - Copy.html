@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marriage Album</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: pink;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color:yellow;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: blue;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        nav a:hover {
+            color: #f0f0f0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .gallery img {
+            width: 20%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>monika weds shubham</h1>
+    </header>
+    <nav>
+        <a href="#Dada&Dadi">Dada&Dadi</a>
+        <a href="#Papa">Papa</a>
+        <a href="#Tauji&Anuma">Tauji&Anuma</a>
+        <a href="#Brother's&Sister's">Brother's&Sister's</a>
+
+    </nav>
+    <main>
+        <section id="Dada&Dadi">
+            <h2>Dada&Dadi</h2>
+            <div class="gallery">
+                <img src="dada&dadi.jpeg" alt="Dada&Dadi">
+                
+
+            
+            </div>
+            </section>
+            <section id="Papa">
+            <h2>Papa</h2>
+            <div class="gallery">
+                <img src="Papa.jpeg" alt="Papa">
+                
+           
+            </div>
+        
+        </section>
+        <section id="Tauji&Anuma">
+            <h2>Tauji&Anuma</h2>
+            <div class="gallery">
+                <img src="papa&mom.jpg.jpeg" alt="Tauji&Taiji">
+             
+            </div>
+        </section>
+        
+         <section id="Chachi">
+            <h2>Chacha & Chachi</h2>
+            <div class="gallery">
+                <img src="chach.jpeg" alt="Candid Photo 1">
+                
+                <!-- Add more photos here -->
+            </div>
+        </section>
+        <section id="candid">
+            <h2>Brothers&Sister</h2>
+            <div class="gallery">
+                <img src="1.jpeg" alt="Brothers&Sister 1">
+                <img src="2.jpeg" alt="Brothers&Sister 1">
+               
+                
+                <!-- Add more photos here -->
+            </div>
+        </section>
+        
+
+    </main>
+    <script src="Marriage.js"></script>
+</body>
+</html>

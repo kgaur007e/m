@@ -1,0 +1,28 @@
+
+body {
+  background-image: url("front page.jpeg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+.videoWrapper {
+  position: absolute;
+  padding-bottom: 100%; /* 16:9 */
+  height: 100%;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 20%;
+}
